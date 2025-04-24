@@ -1,0 +1,13 @@
+[package]
+name = "token-handler"
+version = "0.1.0"
+edition = "2024"
+exclude = [
+    "test.rs",
+]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+jsonwebtoken = "9.3.1"
+
+
